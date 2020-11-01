@@ -9,7 +9,8 @@ tl.from(".elipse",{x:-200,opacity:0,ease:Power2.easeOut});
 
 const mywishesTl = gsap.timeline({scrollTrigger:".wishes-whatson",duration:.3});
 
-mywishesTl.from(".mywishes",{y:-100,opacity:0,ease:Power2.easeOut});
+mywishesTl.from(".mywishes",{y:-100,opacity:0,ease:Power2.easeOut})
+mywishesTl.from(".what-happen",{y:-100,opacity:0,ease:Power2.easeOut});
 
 
 
