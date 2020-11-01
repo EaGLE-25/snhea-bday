@@ -1,0 +1,162 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  background-color: white;
+}
+.container{
+  padding: 5rem;
+  padding-top: 0;
+}
+.hero{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.hero .text span{
+  color: transparent;
+  font-weight: 800;
+  font-size: 4.5rem;
+  line-height: 88px;
+  -webkit-text-stroke: 2px black;
+  transition: all 1s;
+}
+.text ul{
+  list-style: none;
+}
+.text ul li{
+  margin-bottom: .5rem;
+}
+.elipse{
+  position: absolute;
+  left: -30px;
+  bottom: 0;
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: black;
+  opacity: .2;
+}
+.hero .text span.purple,.purple{ 
+color: #6C63FF;
+-webkit-text-stroke: 0;
+}
+.svg img{
+  transition: all 1s;
+}
+
+.transperant-text{
+  font-size: 3.25rem;
+  font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+}
+
+.wishes-whatson{
+  margin-top: 5rem;
+}
+
+.video{
+  margin-top: 2.5rem;
+  width: 100%;
+  min-width: 300px;
+  border-radius: 1rem;
+}
+.what-happen{
+  margin-top: 5rem;
+}
+.what-happen p{
+  margin-top:2.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.what-happen .know-more{
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: #6C63FF;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: .9rem;
+  cursor: pointer;
+  transition: all .5s;
+  text-decoration: none;
+}
+.what-happen .know-more:hover{
+  background-color: #5750db;
+}
+.separator{
+  width: 50px;
+  height: 10px;
+  display: inline-block;
+  background: #6C63FF;
+  border-radius: 1rem;
+}
+
+@media (max-width:1522px){
+  .svg img{
+    width: 500px;
+    height: 400px;
+  }
+  html{
+    font-size: 90%;
+  }
+}
+
+@media (max-width:1290px){
+  .svg img{
+    width: 450px;
+    height: 350px;
+  }
+  html{
+    font-size: 80%;
+  }
+}
+
+@media (max-width:1200px){
+  .svg img{
+    width: 400px;
+    height: 300px;
+  }
+  .text ul li{
+    margin-bottom: .1rem;
+  }
+  html{
+    font-size: 70%;
+  }
+}
+
+@media (max-width:1049px){
+  .text{
+    margin-left: 1rem;
+  }
+  html{
+    font-size: 60%;
+  }
+}
+
+@media (max-width:770px){
+  .hero{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .svg{
+    margin-top: -30rem;
+  } 
+}
+
+@media (max-width:495px){
+  html{
+    font-size: 50%;
+  }
+}
